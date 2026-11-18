@@ -1,0 +1,161 @@
+/* ==========================================================================
+   ANTI-FEED AI - Responsive Styles (responsive.css)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Tablet Devices (max-width: 1024px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 1024px) {
+  .app-sidebar {
+    width: 220px;
+  }
+
+  .app-main-content {
+    margin-left: 220px;
+    padding: var(--space-5);
+  }
+
+  .grid-3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .editorial-card-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .editorial-card-hero .card-image-wrap {
+    aspect-ratio: 16 / 9;
+  }
+
+  .intensity-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Mobile Devices (max-width: 768px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  /* Layout Changes */
+  .mobile-top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-3) var(--space-4);
+    background-color: var(--card-bg);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: var(--radius-md);
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    cursor: pointer;
+  }
+
+  /* Off-canvas Mobile Sidebar */
+  .app-sidebar {
+    position: fixed;
+    top: 0;
+    left: -280px;
+    width: 280px;
+    height: 100vh;
+    z-index: 200;
+    box-shadow: var(--shadow-xl);
+    transition: left var(--transition-normal);
+  }
+
+  .app-sidebar.mobile-open {
+    left: 0;
+  }
+
+  .mobile-sidebar-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 199;
+    backdrop-filter: blur(2px);
+  }
+
+  .mobile-sidebar-overlay.active {
+    display: block;
+  }
+
+  .app-main-content {
+    margin-left: 0;
+    padding: var(--space-4);
+  }
+
+  /* Header adjustments */
+  .app-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-3);
+  }
+
+  .header-actions {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .header-search-input {
+    width: 100%;
+  }
+
+  /* Grid Reductions */
+  .grid-2-cols,
+  .grid-3-cols,
+  .categories-grid,
+  .sources-grid,
+  .race-calendar-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Typography on Mobile */
+  .morning-title {
+    font-size: var(--text-2xl);
+  }
+
+  .sports-hero-title {
+    font-size: var(--text-2xl);
+  }
+
+  .sports-hero-banner {
+    padding: var(--space-5);
+  }
+
+  /* Chat adjustment */
+  .assistant-page-container {
+    height: calc(100vh - 160px);
+  }
+
+  .chat-message-row {
+    max-width: 92%;
+  }
+
+  /* Modal Dialog on Mobile */
+  .modal-dialog {
+    width: 95%;
+    max-height: 92vh;
+    margin: var(--space-2);
+  }
+
+  .modal-body {
+    padding: var(--space-4);
+  }
+
+  .modal-title {
+    font-size: var(--text-xl);
+  }
+}
+

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b192c" />
+      <stop offset="60%" stop-color="#112239" />
+      <stop offset="100%" stop-color="#182e4b" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d9488" />
+      <stop offset="50%" stop-color="#14b8a6" />
+      <stop offset="100%" stop-color="#2dd4bf" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bgGrad)" />
+  <rect width="800" height="450" fill="url(#grid)" />
+
+  <!-- Geometric Decorative Lines -->
+  <circle cx="720" cy="80" r="140" fill="none" stroke="#0d9488" stroke-width="1" stroke-opacity="0.15" />
+  <circle cx="720" cy="80" r="220" fill="none" stroke="#14b8a6" stroke-width="0.75" stroke-opacity="0.1" />
+  <circle cx="80" cy="380" r="180" fill="none" stroke="#38bdf8" stroke-width="0.75" stroke-opacity="0.08" />
+
+  <!-- Top Pill -->
+  <g transform="translate(60, 50)">
+    <rect width="230" height="32" rx="16" fill="#0d9488" fill-opacity="0.18" stroke="#14b8a6" stroke-width="1" stroke-opacity="0.4" />
+    <circle cx="18" cy="16" r="4" fill="#14b8a6" />
+    <text x="32" y="21" fill="#2dd4bf" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="1">ANTI-FEED AI • EDITAL</text>
+  </g>
+
+  <!-- Center Icon & Content -->
+  <g transform="translate(60, 140)">
+    <!-- Newspaper / Bulletin Icon -->
+    <rect x="0" y="0" width="72" height="72" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+    <path d="M22 24 h28 M22 34 h28 M22 44 h18 M46 44 h4" stroke="#14b8a6" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Title and Subtitle -->
+    <text x="96" y="32" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.5">CURADORIA JORNALÍSTICA</text>
+    <text x="96" y="60" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500">Acontecimentos essenciais apurados em fontes primárias verificadas</text>
+  </g>
+
+  <!-- Lower Details -->
+  <g transform="translate(60, 340)">
+    <rect width="680" height="1" fill="#334155" fill-opacity="0.6" />
+    <text x="0" y="36" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" letter-spacing="0.5">SÍNTESE ANALÍTICA • SEM RUÍDO • CONTEXTUALIZAÇÃO DIRETA</text>
+    <text x="680" y="36" text-anchor="end" fill="#14b8a6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">AZURE FOUNDRY AGENT</text>
+  </g>
+
+  <!-- Accent Edge Bar -->
+  <rect x="0" y="444" width="800" height="6" fill="url(#accentGrad)" />
+</svg>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minhas Preferências — ANTI-FEED AI</title>
+  <meta name="description" content="Personalize os temas, intensidade editorial e filtros de ruído do seu jornal diário.">
+  
+  <!-- CSS Modular -->
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+  <div class="app-shell">
+    
+    <!-- Top Bar Mobile -->
+    <div class="mobile-top-bar">
+      <div class="sidebar-brand">
+        <span class="brand-badge-ai">AI</span>
+        <span class="brand-title">ANTI-FEED</span>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Abrir menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+
+    <!-- Barra Lateral de Navegação -->
+    <aside class="app-sidebar">
+      <div class="sidebar-brand">
+        <span class="brand-badge-ai">AI</span>
+        <div>
+          <div class="brand-title">ANTI-FEED</div>
+          <div style="font-size: 10px; color: var(--text-muted); font-weight: 500; letter-spacing: 0.05em;">CURADORIA EDITORIAL</div>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="sidebar-nav-group">
+          <div class="sidebar-nav-heading">Principal</div>
+          <a href="jornal.html" class="sidebar-nav-link">
+            <svg class="sidebar-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            <span>Jornal Matinal</span>
+          </a>
+          <a href="assistente.html" class="sidebar-nav-link">
+            <svg class="sidebar-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            <span>Meu Assistente</span>
+          </a>
+          <a href="sports.html" class="sidebar-nav-link">
+            <svg class="sidebar-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
+            <span>ANTI-FEED Sports</span>
+          </a>
+        </div>
+
+        <div class="sidebar-nav-group">
+          <div class="sidebar-nav-heading">Inteligência</div>
+          <a href="preferencias.html" class="sidebar-nav-link active">
+            <svg class="sidebar-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            <span>Minhas Preferências</span>
+          </a>
+          <a href="fontes.html" class="sidebar-nav-link">
+            <svg class="sidebar-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>Fontes & Confiabilidade</span>
+          </a>
+          <a href="configuracoes.html" class="sidebar-nav-link">
+            <svg class="sidebar-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            <span>Configurações</span>
+          </a>
+        </div>
+      </nav>
+
+      <!-- Rodapé da Barra Lateral -->
+      <div style="padding-top: var(--space-4); border-top: 1px solid var(--border-color); display: flex; align-items: center; justify-content: space-between;">
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <div style="width: 8px; height: 8px; border-radius: 50%; background-color: var(--color-success);"></div>
+          <span style="font-size: 11px; color: var(--text-muted);">Perfil Salvo</span>
+        </div>
+        <button class="action-icon-btn theme-toggle-btn" aria-label="Alternar Tema">
+          <span class="theme-toggle-icon">🌙</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Conteúdo Principal -->
+    <main class="app-main-content">
+      
+      <!-- Cabeçalho da Página -->
+      <header class="app-header">
+        <div>
+          <h1 style="font-size: var(--text-2xl); font-weight: 800;">Minhas Preferências Editoriais</h1>
+          <p style="font-size: var(--text-sm); color: var(--text-secondary); margin-top: 2px;">
+            Configure o que você deseja acompanhar e instrua a IA a eliminar temas irrelevantes.
+          </p>
+        </div>
+
+        <div class="header-actions">
+          <button class="btn btn-secondary btn-sm" id="reset-preferences-btn">Restaurar Padrões</button>
+          <button class="btn btn-primary btn-sm" id="save-preferences-btn">Salvar Alterações</button>
+        </div>
+      </header>
+
+      <!-- 1. Nível de Intensidade Editorial -->
+      <section class="preferences-section">
+        <div class="pref-section-header">
+          <h2 class="pref-section-title">
+            <span>⚖️</span>
+            <span>Intensidade de Leitura Diária</span>
+          </h2>
+          <p class="pref-section-desc">
+            Defina o volume de notícias que você deseja receber por dia. O ANTI-FEED AI respeita seu tempo e não gera excesso de informação.
+          </p>
+        </div>
+
+        <div class="intensity-cards-grid">
+          <div class="intensity-card" data-intensity="essencial">
+            <div class="intensity-card-title">
+              <span>Essencial</span>
+              <span class="badge">~5 min</span>
+            </div>
+            <p class="intensity-card-desc">
+              Apenas os 3 a 5 fatos mais críticos e incontornáveis do dia. Ideal para manhãs com pouco tempo.
+            </p>
+          </div>
+
+          <div class="intensity-card active" data-intensity="equilibrada">
+            <div class="intensity-card-title">
+              <span>Equilibrada</span>
+              <span class="badge" style="background-color: var(--color-primary-500); color: white;">Recomendada</span>
+            </div>
+            <p class="intensity-card-desc">
+              Entre 6 e 10 destaques contextualizados. O equilíbrio perfeito entre profundidade e brevidade.
+            </p>
+          </div>
+
+          <div class="intensity-card" data-intensity="completa">
+            <div class="intensity-card-title">
+              <span>Completa</span>
+              <span class="badge">~15 min</span>
+            </div>
+            <p class="intensity-card-desc">
+              Panorama expandido com análises técnicas, desdobramentos geopolíticos e relatórios de mercado.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Seleção de Temas (21 Categorias) -->
+      <section class="preferences-section">
+        <div class="pref-section-header" style="display: flex; justify-content: space-between; align-items: center;">
+          <div>
+            <h2 class="pref-section-title">
+              <span>🧭</span>
+              <span>Temas de Cobertura Pessoal</span>
+            </h2>
+            <p class="pref-section-desc">
+              Selecione as áreas que devem compor o seu jornal. A IA só priorizará notícias vinculadas aos temas ativos.
+            </p>
+          </div>
+          <span id="selected-categories-count" class="badge" style="font-size: 12px;">6 temas selecionados</span>
+        </div>
+
+        <div class="categories-grid" id="categories-selection-grid">
+          <!-- Renderizado dinamicamente por preferences.js com 21 categorias -->
+        </div>
+      </section>
+
+      <!-- 3. Filtro Anti-Ruído (Tópicos a Evitar) -->
+      <section class="preferences-section">
+        <div class="pref-section-header">
+          <h2 class="pref-section-title">
+            <span>🛡️</span>
+            <span>Filtro Anti-Ruído (Tópicos Bloqueados)</span>
+          </h2>
+          <p class="pref-section-desc">
+            Adicione palavras-chave, celebridades, polêmicas ou termos sensacionalistas que você NUNCA quer ver no seu jornal.
+          </p>
+        </div>
+
+        <div style="display: flex; gap: var(--space-2); margin-top: var(--space-4);">
+          <input type="text" id="avoid-topic-input" class="chat-input-field" placeholder="Ex: 'reality show', 'crime passional', 'fofoca de artistas'...">
+          <button class="btn btn-secondary" id="add-avoid-topic-btn">Adicionar Filtro</button>
+        </div>
+
+        <div class="tags-container" id="avoid-tags-container">
+          <!-- Tags adicionadas dinamicamente -->
+        </div>
+      </section>
+
+      <!-- 4. Horário de Entrega e Envio -->
+      <section class="preferences-section">
+        <div class="pref-section-header">
+          <h2 class="pref-section-title">
+            <span>⏰</span>
+            <span>Horário de Preparação do Jornal</span>
+          </h2>
+          <p class="pref-section-desc">
+            Defina o horário em que seu resumo matinal deve estar pronto e consolidado para sua leitura.
+          </p>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: var(--space-4); margin-top: var(--space-3);">
+          <input type="time" id="delivery-time-input" value="07:00" class="chat-input-field" style="max-width: 160px; font-weight: 700;">
+          <span style="font-size: var(--text-sm); color: var(--text-secondary);">
+            Os agentes de IA iniciarão a varredura e checagem 30 minutos antes deste horário.
+          </span>
+        </div>
+      </section>
+
+      <!-- Barra de Ação Inferior -->
+      <div style="display: flex; justify-content: flex-end; gap: var(--space-3); margin-bottom: var(--space-8);">
+        <a href="jornal.html" class="btn btn-secondary">Voltar ao Jornal</a>
+        <button class="btn btn-primary" onclick="document.getElementById('save-preferences-btn').click();">
+          Salvar Minhas Preferências
+        </button>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- Scripts Modulares Vanilla ES6+ -->
+  <script src="../js/storage.js"></script>
+  <script src="../js/navigation.js"></script>
+  <script src="../js/news.js"></script>
+  <script src="../js/sports.js"></script>
+  <script src="../js/assistant.js"></script>
+  <script src="../js/preferences.js"></script>
+  <script src="../js/sources.js"></script>
+  <script src="../js/settings.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>
+

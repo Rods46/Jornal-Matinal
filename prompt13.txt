@@ -1,0 +1,166 @@
+<USER_REQUEST>
+### 13. CORREÇÃO DO BOTÃO DE ATUALIZAÇÃO E RENOVAÇÃO DAS NOTÍCIAS
+
+Foi identificado um problema funcional no site ANTI-FEED AI:
+
+O botão de atualização das notícias não está funcionando corretamente. Ao acioná-lo, a página não atualiza o conteúdo e as mesmas notícias continuam sendo exibidas.
+
+Essa funcionalidade é essencial para o propósito do ANTI-FEED AI e deverá ser corrigida prioritariamente.
+
+#### 13.1 Auditoria do botão
+
+Investigar:
+
+- Se o botão possui evento JavaScript corretamente associado.
+- Se a função de atualização está sendo realmente executada.
+- Se a requisição chega ao backend.
+- Se o backend realiza uma nova consulta às fontes de informação.
+- Se o agente Foundry recebe uma nova solicitação.
+- Se o frontend recebe os novos resultados.
+- Se o estado da aplicação é atualizado corretamente.
+- Se existe algum cache impedindo a renovação das notícias.
+- Se o sistema está reutilizando respostas anteriores indevidamente.
+
+Não resolver o problema apenas recarregando visualmente a página.
+
+#### 13.2 Implementação da atualização real
+
+O botão deverá executar uma nova operação de atualização das notícias.
+
+Fluxo esperado:
+
+1. Usuário clica no botão Atualizar.
+2. A interface apresenta um indicador de atualização.
+3. O frontend envia uma nova solicitação ao backend.
+4. O backend solicita uma nova curadoria ao agente ANTI-FEED AI.
+5. O agente realiza novas consultas às fontes disponíveis.
+6. As notícias são reavaliadas conforme os interesses do usuário.
+7. O backend recebe os novos resultados.
+8. O frontend substitui os conteúdos anteriores pelos novos resultados.
+9. A página apresenta a data e o horário da última atualização.
+
+#### 13.3 Atualização de conteúdo e controle de cache
+
+Implementar mecanismos para evitar que a atualização retorne simplesmente os mesmos dados armazenados anteriormente.
+
+Verificar:
+
+- Cache do navegador.
+- Cache do backend.
+- Cache das consultas de notícias.
+- Cache das ferramentas de pesquisa.
+- Reutilização de respostas anteriores do agente.
+- Persistência indevida de dados antigos no estado do frontend.
+
+Quando o usuário solicitar uma atualização manual, a aplicação deverá solicitar uma nova curadoria, respeitando os limites e políticas das fontes utilizadas.
+
+Não utilizar parâmetros aleatórios ou alterações artificiais na pergunta apenas para tentar obter notícias diferentes.
+
+Não desabilitar todo o cache indiscriminadamente. Implementar políticas adequadas de validade e renovação dos dados.
+
+#### 13.4 Critérios de atualidade jornalística
+
+A nova consulta deverá considerar:
+
+- Data e horário atuais.
+- Data de publicação das notícias.
+- Notícias publicadas desde a última atualização.
+- Notícias que continuam relevantes.
+- Atualizações importantes de acontecimentos anteriores.
+- Preferências individuais do usuário.
+
+Não considerar uma notícia antiga como nova apenas porque foi consultada novamente.
+
+Quando não houver notícias novas relevantes, o sistema deverá informar que não foram identificadas atualizações relevantes, em vez de inventar conteúdo.
+
+#### 13.5 Preservação da qualidade editorial
+
+A atualização não deverá reduzir a qualidade da curadoria.
+
+O agente deverá continuar:
+
+- Priorizando fontes confiáveis.
+- Evitando notícias duplicadas.
+- Identificando informações desatualizadas.
+- Priorizando acontecimentos relevantes.
+- Respeitando as categorias selecionadas pelo usuário.
+- Atualizando imagens e links quando houver novas referências disponíveis.
+
+A principal notícia deverá ser reavaliada a cada nova curadoria, sem apresentar métricas de audiência inexistentes.
+
+#### 13.6 Experiência visual
+
+Durante a atualização:
+
+- Exibir indicador de carregamento no botão.
+- Informar que as notícias estão sendo atualizadas.
+- Evitar cliques duplicados durante a mesma operação.
+- Não congelar toda a página.
+- Atualizar os cards progressivamente quando possível.
+- Preservar o conteúdo anterior até que os novos resultados estejam disponíveis.
+- Informar quando a atualização falhar.
+- Oferecer nova tentativa em caso de erro.
+
+Após a conclusão, apresentar:
+
+- Horário da atualização.
+- Quantidade de notícias novas.
+- Quantidade de notícias atualizadas.
+- Categorias efetivamente renovadas.
+
+#### 13.7 Testes obrigatórios
+
+Executar os seguintes testes:
+
+TESTE A — Atualização manual:
+Clicar no botão e confirmar que uma nova solicitação chega ao backend.
+
+TESTE B — Nova pesquisa:
+Confirmar que o agente executa uma nova curadoria e não apenas devolve a resposta anterior.
+
+TESTE C — Atualização visual:
+Confirmar que os cards são atualizados corretamente.
+
+TESTE D — Atualidade:
+Verificar as datas de publicação das notícias retornadas.
+
+TESTE E — Cache:
+Confirmar que respostas antigas não são reapresentadas como se fossem novas.
+
+TESTE F — Falha de conexão:
+Simular indisponibilidade do Foundry e verificar se o conteúdo anterior é preservado.
+
+TESTE G — Atualização consecutiva:
+Executar duas atualizações em sequência e verificar se ambas são processadas corretamente, sem duplicação de requisições.
+
+#### 13.8 Critério de conclusão
+
+O botão de atualização somente será considerado corrigido quando cada acionamento gerar uma nova operação de curadoria, com consulta às fontes disponíveis, processamento pelo agente e atualização efetiva do conteúdo apresentado na interface.
+
+Não considerar um simples reload da página como atualização das notícias.
+
+---
+
+### 14. CRITÉRIO FINAL DE ACEITAÇÃO DO PROJETO
+
+O ANTI-FEED AI deverá operar com três pilares funcionais:
+
+1. DESEMPENHO: respostas rápidas, streaming e ausência de travamentos.
+2. INTELIGÊNCIA: curadoria aprofundada, contextualizada e confiável.
+3. ATUALIDADE: notícias efetivamente renovadas quando o usuário solicitar atualização.
+
+A integração somente poderá ser considerada concluída após a comprovação dos três pilares por meio de testes reais.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-11-17T20:27:17-03:00.
+
+The user's current state is as follows:
+Active Document: c:\Users\33657531840\Desktop\Site_Antgravity\.env (LANGUAGE_UNSPECIFIED)
+Cursor is on line: 25
+Other open documents:
+- c:\Users\33657531840\Desktop\Site_Antgravity\server.js (LANGUAGE_UNSPECIFIED)
+- c:\Users\33657531840\Desktop\Site_Antgravity\anti-feed-ai\index.html (LANGUAGE_UNSPECIFIED)
+- c:\Users\33657531840\Desktop\Site_Antgravity\anti-feed-ai\pages\jornal.html (LANGUAGE_UNSPECIFIED)
+- c:\Users\33657531840\Desktop\Site_Antgravity\controllers\chatController.js (LANGUAGE_UNSPECIFIED)
+- c:\Users\33657531840\Desktop\Site_Antgravity\routes\chatRoutes.js (LANGUAGE_UNSPECIFIED)
+</ADDITIONAL_METADATA>

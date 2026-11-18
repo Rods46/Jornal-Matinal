@@ -1,0 +1,152 @@
+{
+  "success": true,
+  "editionId": "ed_1795041773389",
+  "updatedAt": "19:42",
+  "dateFormatted": "quarta-feira, 18 de novembro de 2026",
+  "agentName": "polite-agent-h276sfyhmp",
+  "agentVersion": "12",
+  "agentSummary": "O dólar dispara para a casa de R$ 5,87 em meio a temores fiscais, coroando uma escalada de 17,6% desde a reeleição de Lula e pressionando inflação, juros e ativos locais. No radar, um vazamento de dados de clientes do Banco do Brasil, um acordo militar inédito entre EUA e Venezuela e a expectativa pelo IPO da Anthropic via BDRs movimentam tecnologia, geopolítica e investimentos.",
+  "hero": {
+    "id": "news-hero-1795041773380",
+    "isHero": true,
+    "title": "Dólar sobe a R$ 5,87 com fiscal e acumula alta de 17,6% desde reeleição de Lula",
+    "category": "economia",
+    "categoryLabel": "Economia & Finanças (economia)",
+    "source": "InfoMoney",
+    "sourceCredibility": "99% (Fonte Primária Verificada)",
+    "verificationStatus": "Verificada por Agente Oficial",
+    "publishedAt": "Hoje, 19:42",
+    "readTime": "4 min",
+    "image": "/assets/images/reference-hero.svg",
+    "imageCaption": "Cobertura editorial pelo Agente ANTI-FEED AI no Azure AI Foundry.",
+    "summary": "O câmbio encosta em R$ 5,87 diante do aumento do risco fiscal, consolidando uma valorização acumulada de 17,6% desde a reeleição de Lula. A pressão cambial amplia prêmios de risco, afeta expectativas de inflação e se reflete em ajustes nos preços de ativos locais.",
+    "whyItMatters": [
+      "Encarece importados, viagens e combustíveis, com potencial de reacelerar a inflação.",
+      "Pressiona juros e crédito, afetando investimentos, bolsa e custo de financiamento."
+    ],
+    "fullContent": "\n        <p>O câmbio encosta em R$ 5,87 diante do aumento do risco fiscal, consolidando uma valorização acumulada de 17,6% desde a reeleição de Lula. A pressão cambial amplia prêmios de risco, afeta expectativas de inflação e se reflete em ajustes nos preços de ativos locais.</p>\n        <h4>Contextualização e Repercussão</h4>\n        <p>A escalada do dólar ocorre em paralelo a um mercado acionário pressionado e a debates no Congresso sobre medidas fiscais e tributárias, elevando a incerteza sobre a trajetória de dívida e o espaço do Banco Central para cortes de juros. O movimento cambial tende a repercutir em remarcações de preços, revisão de guidance corporativo, rolagem de dívida em dólar e fluxo para ativos defensivos, enquanto agentes aguardam sinais claros de ancoragem fiscal.</p>\n      ",
+    "externalUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZnBWSzN0VVZ2UktNb3lKa2RsNTUzcU41OHZ5R2VQUW5WWnNfaVRrY1Z5eXBMYzY1ZHNHMUV2X0tCWjA3UWRDTU5kbVlUUFdrVW40VUtOUVdNS2NMSWIxN1N6M20yVklMVGFkVnhnQnIxNjBkbVpFSTA1SmZkNTk0WFRHMHp1N1NZdnNCVlNrR1JKbHhOVkdQTnU1aXHSAaIBQVVfeXFMUFNsdlF3UXY1dDEweFZPX2lwNlNrYkJOWmpncU94V0VtMzhNdGkwcmxISDU0NF9GRngzSU5pUWRGSTV1bWVFdmpBOXBsVmhuWHZ0eDVTOV9fbVRabi1ZRmZSUndYSXZoeHZGRkZmeXJ0ZV83aXg5b3NRWUFNb2hyTkg5a1E4czJVbmpzamR1cWVNQU9KRUFFRXNQOExjX0laOW5n?oc=5",
+    "published_at": "2026-11-18T20:17:00.000Z",
+    "updated_at": "2026-11-18T22:42:28.299Z",
+    "fetched_at": "2026-11-18T22:42:28.299Z",
+    "content_hash": "870d10eb0a14c2505a35ebce52330c3f703c3bd13efff8ad27c94bccec59f534"
+  },
+  "news": [
+    {
+      "id": "news-grid-1795041773380-1",
+      "isHero": false,
+      "title": "Banco do Brasil alerta clientes sobre vazamento de dados pessoais; veja o que foi exposto",
+      "category": "tecnologia",
+      "categoryLabel": "Tecnologia & IA (tecnologia)",
+      "source": "G1",
+      "sourceCredibility": "98%",
+      "verificationStatus": "Fonte Primária Verificada",
+      "publishedAt": "Hoje, 19:42",
+      "readTime": "3 min",
+      "image": "/assets/images/reference-tecnologia.svg",
+      "imageCaption": "Análise editorial de Tecnologia & IA (tecnologia).",
+      "summary": "O Banco do Brasil notificou clientes sobre exposição de dados pessoais em incidente de segurança, detalhando o escopo do que foi acessado. A instituição orienta medidas de proteção e monitoramento.",
+      "whyItMatters": [
+        "risco de golpes e fraudes aumenta; clientes devem reforçar autenticações e vigilância de transações."
+      ],
+      "fullContent": "\n            <p>O Banco do Brasil notificou clientes sobre exposição de dados pessoais em incidente de segurança, detalhando o escopo do que foi acessado. A instituição orienta medidas de proteção e monitoramento.</p>\n            <p>Curadoria orientada pelo ANTI-FEED AI com fontes consolidadas e checagem de fatos.</p>\n          ",
+      "externalUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQODlUSlRrYjdXdzh1VDV3dDk5Z3hQS3NIMGVqOEJCYktpZTluU1RGdE1rNktPUjNTdVloSkxwdWFta21lSVpDMmg5WDZmczdWbFF4VlF2cGNMWkZ2UHB6U2VMV0VVelR2cWM4MjVLQTJlaFVDRkRsSmdvb2RyMzhnSF9LNULSAZMBQVVfeXFMTmFqQlI2VnRjMElKd1FjbnJ3dEVtMjFFRkdIb0xGbjg2bnBobjY4cVNWU0J6Q015dEp4b1JvQXJVZEtQMlhaX2J5d1FhcDBoUnRWVjd0MGZjdDdpc2xlc3k2cl80WVdFZ3MzbTcxYkMya1VxN1NZNW1uNFJodTNCSXZnbERQZ0hBZW04djE0VFY3eG1r?oc=5",
+      "published_at": "2026-11-18T19:30:01.000Z",
+      "updated_at": "2026-11-18T22:42:28.311Z",
+      "fetched_at": "2026-11-18T22:42:28.311Z",
+      "content_hash": "afb5d96fb9e886c2156fb44feddc0213d6774a8d1ea134646a359481e2f66d1e"
+    },
+    {
+      "id": "news-grid-1795041773380-2",
+      "isHero": false,
+      "title": "EUA e Venezuela assinam acordo militar durante visita do chefe do Pentágono a Caracas",
+      "category": "politica",
+      "categoryLabel": "Geopolítica Global (mundo)",
+      "source": "G1",
+      "sourceCredibility": "98%",
+      "verificationStatus": "Fonte Primária Verificada",
+      "publishedAt": "Hoje, 19:42",
+      "readTime": "3 min",
+      "image": "/assets/images/reference-politica.svg",
+      "imageCaption": "Análise editorial de Geopolítica Global (mundo).",
+      "summary": "Durante visita do secretário de Defesa dos EUA a Caracas, foi firmado um acordo militar com a Venezuela, sinalizando reaproximação inédita e potenciais mudanças no equilíbrio regional.",
+      "whyItMatters": [
+        "pode alterar dinâmicas de defesa e energia na região; afeta risco-país e cadeias de petróleo."
+      ],
+      "fullContent": "\n            <p>Durante visita do secretário de Defesa dos EUA a Caracas, foi firmado um acordo militar com a Venezuela, sinalizando reaproximação inédita e potenciais mudanças no equilíbrio regional.</p>\n            <p>Curadoria orientada pelo ANTI-FEED AI com fontes consolidadas e checagem de fatos.</p>\n          ",
+      "externalUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYUdfQlFMcXZwamdRUXIxMEtZZVA3MTZjRWdMZGtQaEk3TVh4YTNDcEVMemtwWWFxbTZDZGVLbTVERWRVZklBamJadmYyeGRIYWoxZnRCT21aYlpDMkFhbHRWY24tVTlMQkZjODVWTEw5Vm40U2RoSUZEclluZzc3bUdzTFk2OVdKNThXTmwya3FqUlVVbndWdTJxVl9YNnRUQzlMNldOUzU4eHFEZnNpNWF5OVZqcnpqRjkyQ1dLelVqQ09BNTVvSklDSU94SVFGRVc5RS12NFYwZGowV2RCNXllSVhTU3dxRDUzQ2x30gH8AUFVX3lxTE94Z19qVUM0bkhfandhVFVjOWVtNVRiOXNETlJWNllPYnYxcWFmVlpuY0ZqX2x2MXhNV05LUUJZOGIzT2xxVVUzMUk1NmZoN0paMTRqTF9USEpOQ19tUUQ1S0s2bmo0MFhWQl9WdWFpYlpRMXhUZmZkbVpuMHZfdndaeUtuWlV4N3dzd0xoTUJhRWdBMTFOd1VEWFRPQWJQU1hOMDFDOXlUWnBqeVFWa1lobE1IcTg3bHBnekNFd21KVDNBcTdVWFZvV2R0V1NuU0Y0N2NBSVFIWG5EN24tZHZJZ3J2bk9SZWZaTWpJcVFvNF91SWxkUzl2WnhCeg?oc=5",
+      "published_at": "2026-11-18T18:05:25.000Z",
+      "updated_at": "2026-11-18T22:42:28.414Z",
+      "fetched_at": "2026-11-18T22:42:28.414Z",
+      "content_hash": "825db77b4b2814a035ef75f7ab234d28c98064d60005b5bcdfa0c46bf2a4e094"
+    },
+    {
+      "id": "news-grid-1795041773380-3",
+      "isHero": false,
+      "title": "Dólar bate R$ 5,86 e IBOV cai 1,34% com ajuste fiscal, rebaixamento do Brasil e PL sobre dividendos",
+      "category": "economia",
+      "categoryLabel": "Economia & Finanças (economia)",
+      "source": "Estadão",
+      "sourceCredibility": "98%",
+      "verificationStatus": "Fonte Primária Verificada",
+      "publishedAt": "Hoje, 19:42",
+      "readTime": "3 min",
+      "image": "/assets/images/reference-economia.svg",
+      "imageCaption": "Análise editorial de Economia & Finanças (economia).",
+      "summary": "O movimento de aversão a risco combina dólar forte, queda do Ibovespa e preocupações com ajuste fiscal, rebaixamento de rating e debate sobre tributação de dividendos.",
+      "whyItMatters": [
+        "reflete deterioração de prêmio de risco; orienta rebalanceamento de carteira e proteção cambial."
+      ],
+      "fullContent": "\n            <p>O movimento de aversão a risco combina dólar forte, queda do Ibovespa e preocupações com ajuste fiscal, rebaixamento de rating e debate sobre tributação de dividendos.</p>\n            <p>Curadoria orientada pelo ANTI-FEED AI com fontes consolidadas e checagem de fatos.</p>\n          ",
+      "externalUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNT3hzSDZ5Q1NiSXVXalV0N0pxWDZISEwwbjIybFpUTlhWMmZfdlRZMWNONjdiMHB3RTU3QUU4RDdXSzhIaXVXMkFBVkV0NzAzQTJWejFBNXo2eGF0Q1FkRFh1SUMtdHVnOEl1eU5ZS2FjX2JOaDdlZlJvTVFIV1JVc2lfaGNKR2QzSFh1YTZOdlV5bHhEWUpxVThvX0RvSHMyLWliYWJDRmM3ODg2VkpjdWJxNU5Md3BDUDlKdkpMUkc2NV9KdV9tOFlqT2lwdW1HdFdtS2hwX2VWUXlCc0xjM05qUdIB6AFBVV95cUxQbGVCNEtZM0xvOUpROE8yWUUzMGZLdldYUXlCbm5EZzdFWEdpOExXNEJ4WkszRnJ4aXhTMG5kMnFiMmE0VGowNERDanJYYzR3YnRiTWtHYUlZVFRhVzF0b2ZrWk91UkJPa3UzUjhqLWJ1d0I1TXhBSGhLMGpKZG13Qy1lWklDamowUVpxNEFfbTJjYjc1cDhLQVJLZk1WRFhnMzcxdTU4Z25ScldOQXhkb2NkWU9xdndlNnRzd0dyaDZpMHRiOFFXeVJicXQ3VjBjblg3Sjl4MXFUSkJMNTZwX2tkVVFsN3JK?oc=5",
+      "published_at": "2026-11-18T14:46:00.000Z",
+      "updated_at": "2026-11-18T22:42:28.300Z",
+      "fetched_at": "2026-11-18T22:42:28.300Z",
+      "content_hash": "f72d87db5993242ed82091299d26000a1c7dd26e41dc9f7d0d262a4d66e59ca3"
+    },
+    {
+      "id": "news-grid-1795041773380-4",
+      "isHero": false,
+      "title": "IPO da Anthropic: veja como investir na criadora do Claude por meio de BDRs no Brasil",
+      "category": "economia",
+      "categoryLabel": "Economia & Finanças (economia)",
+      "source": "G1",
+      "sourceCredibility": "98%",
+      "verificationStatus": "Fonte Primária Verificada",
+      "publishedAt": "Hoje, 19:42",
+      "readTime": "3 min",
+      "image": "/assets/images/reference-economia.svg",
+      "imageCaption": "Análise editorial de Economia & Finanças (economia).",
+      "summary": "Reportagem explica como investidores locais podem acessar o IPO da Anthropic por meio de BDRs, detalhando caminhos operacionais e riscos.",
+      "whyItMatters": [
+        "abre porta para exposição à IA generativa; exige atenção a volatilidade de tech e câmbio."
+      ],
+      "fullContent": "\n            <p>Reportagem explica como investidores locais podem acessar o IPO da Anthropic por meio de BDRs, detalhando caminhos operacionais e riscos.</p>\n            <p>Curadoria orientada pelo ANTI-FEED AI com fontes consolidadas e checagem de fatos.</p>\n          ",
+      "externalUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd1A1T0xXSUVKNnlhZUsyQnJ5X0JabmRLeV9EZmVXODV0aWxkYkhOUGtWS3RYOWRyNE05VHFrQWktZkkxSFJ0Q0dxXzZjNURmbElnTVpwSzZIWG5tdkZleXlSdkVVYVVNUVR5QjZpZDdHLU5BNTJqd1MtTWw1OURqOXg5SmdkZ1laN0k4UEQwX2x5bVF5MWVyRXpaSXdYVENybkHSAbABQVVfeXFMTlJyekRnMHRZWS12RHI4aG1tRTdvclhxcUJtTV85YzAyemt6c1VCcUU2U2xmVjJ6b1RmaGFDV3pqQ3dMMlpJbW5YNGlJRHFqX1ZUSVlVU1pHQV9BbTB5WU5uN1NydHI2OXRMd3pNM1JPYWpPYzJWWTk1S2NZX0xEWlctaFlySXZCemdSeTNSNFp2eVVJM1J5LXowamtPazdpRmQyT0R1dnBWYnpzRWxpUHI?oc=5",
+      "published_at": "2026-11-18T17:08:39.000Z",
+      "updated_at": "2026-11-18T22:42:28.300Z",
+      "fetched_at": "2026-11-18T22:42:28.300Z",
+      "content_hash": "26f046d6817bd35176c8267a679860e304200a83adc5320bd94e3cdeb252f5b1"
+    }
+  ],
+  "agenda": [
+    {
+      "time": "09:30",
+      "title": "Abertura das negociações financeiras e divulgação de indicadores",
+      "category": "Economia"
+    },
+    {
+      "time": "15:00",
+      "title": "Painel de atualizações tecnológicas e regulatórias",
+      "category": "Tecnologia"
+    }
+  ],
+  "totalCount": 5,
+  "newCount": 5,
+  "categoriesRenewed": [
+    "Economia & Finanças (economia)",
+    "Tecnologia & IA (tecnologia)",
+    "Geopolítica Global (mundo)"
+  ],
+  "fetched_at": "2026-11-18T22:42:53.389Z"
+}
